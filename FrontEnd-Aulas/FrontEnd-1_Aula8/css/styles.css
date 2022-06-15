@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.co@m/css2?family=Roboto:wght@500&display=swap');
+
+body {
+    
+    background-color: #131313;
+}
+
+h1 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.media-picture {
+    background-size: cover;
+    height: 400px;
+    background-image: url(../img/Planeta-do-Tesouro.jpg);
+}
+.review-score {
+    color: white;
+    background-color: #e6bd09;
+    font-weight: bold;
+    padding: 12px;
+    border-radius: 15px;
+}
+
+h2 {
+    color: steelblue;
+    background-color: black;
+    padding: 5px;
+}
+
+p {
+    color: #bdbdbd;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    color: yellow;
+}

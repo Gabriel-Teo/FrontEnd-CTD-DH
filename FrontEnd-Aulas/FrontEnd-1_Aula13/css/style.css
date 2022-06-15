@@ -1,0 +1,47 @@
+/*GERAIS*/
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    margin: 0px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/*HEADER*/
+
+header {
+    width: 100%;
+    background-color: black;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header h1 {
+    color: white;
+}
+
+header div {
+    background-color: orange;
+    width: 100%;
+}
+
+header p {
+    margin: 0px;
+}
+
+/*MAIN*/
+
+.card {
+    display: flex;
+    justify-content: center;
+    
+}

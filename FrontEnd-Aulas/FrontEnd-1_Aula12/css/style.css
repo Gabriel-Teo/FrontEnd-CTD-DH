@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+.propaganda {
+    background-color: #222222;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding-left: 50px;
+    padding-right: 40px;
+}
+
+.propaganda p {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+html, body {
+    height: 100%;
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #F0A83E;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav {
+    margin-right: 40px;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+header nav ul li {
+    display: flex;
+    margin-left: 13px;
+    color: white;
+}
+

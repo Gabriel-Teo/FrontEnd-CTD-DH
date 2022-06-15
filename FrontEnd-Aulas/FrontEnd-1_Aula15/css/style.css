@@ -1,0 +1,32 @@
+/* gerais */
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    display: flex;
+    height: 100%;
+    margin: 0px;
+    flex-direction: column ;
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    color: white;
+    background-color: #F0A83E
+}
+
+.logo {
+    display: flex;
+}
+
+.logo img {
+    
+}
+
+header section {
+    color: #3C2313;
+}

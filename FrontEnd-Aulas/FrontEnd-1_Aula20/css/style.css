@@ -1,0 +1,92 @@
+/* Cores */
+
+.red {
+    color: #D01418
+}
+
+.branco {
+    color: #F3F3F3;
+}
+
+/* GERAIS */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: sans-serif;
+  }
+
+
+/* header */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 20px;
+    background: #222222;
+  }
+
+header h1 {
+    color: #F3F3F3;
+}
+
+.logo {
+    display: flex;
+    gap: 11px;
+}
+
+header button {
+    background: transparent;
+    border: none;
+}
+
+nav a {
+    display: none;
+}
+
+/* header button:hover {
+
+} */
+
+/* banner */
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    gap: 66px;
+    background-image: url(../img/img\ 1.png);
+    align-items: center;
+    justify-content: center;
+    background-size: 100%;
+    height: 512px;
+    padding: 39px;
+}
+
+.banner p{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+}
+
+.banner button {
+    background-color: #D01418;
+    border: none;
+    border-radius: 5px;
+    width: 65%;
+}
+
+
+/* DESKTOP */
+
+@media (min-width: 1024px) {
+nav a {
+    display: inline-block;
+}
+nav button {
+    display: none;
+}
+}
